@@ -47,7 +47,7 @@ pomi_ml_github/
 
 ## Data requirements
 
-The participant-level dataset is not included in this repository. Use only an anonymized dataset that has been approved for sharing.
+An anonymized, numerically coded dataset is included in this repository. It contains no names, contact details, free-text responses, precise addresses, or timestamps. The questionnaire form itself is not included.
 
 By default, the workflow looks for:
 
@@ -148,7 +148,7 @@ model_selection_metrics.csv
 - The same holdout observations are used for all candidate models.
 - `R2_correlation` is the squared Pearson correlation between observed and predicted values; it is not the conventional coefficient of determination defined as `1 - SSE/SST`.
 - Random-forest importance represents relative predictive contribution and does not establish causality.
-- Existing outputs can be regenerated from an approved dataset with the required columns.
+- Existing outputs can be regenerated from the included anonymized dataset.
 
 ## Expected results for the reference dataset
 

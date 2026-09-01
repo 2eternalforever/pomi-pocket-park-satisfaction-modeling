@@ -12,4 +12,4 @@ Before creating a public release, verify that:
 - generated CSV values match the reference outputs;
 - the release metadata accurately describes the deposited files.
 
-The participant-level dataset is intentionally absent from this package. Add it only after completing the privacy, consent, and ethics checks above.
+The package includes a numerically coded analysis dataset from which direct identifiers, free-text responses, precise locations, timestamps, and workbook creator metadata are absent. The questionnaire form is not included.

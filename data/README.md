@@ -1,12 +1,12 @@
 # Data directory
 
-The participant-level dataset is not included. Place an anonymized and sharing-approved Excel file here as:
+This directory includes the anonymized, numerically coded analysis dataset:
 
 ```text
 survey_data.xlsx
 ```
 
-The file must contain one row per response and these columns:
+The file contains 361 rows, one per valid response, and 50 coded variables. The modeling workflow uses the following columns:
 
 | Column | Description | Expected values |
 |---|---|---|
@@ -23,7 +23,7 @@ The file must contain one row per response and these columns:
 | `Facility_Shade` | Shade-facility rating | Integer, 1–5 |
 | `Facility_WiFi` | Wi-Fi rating | Integer, 1–5 |
 
-Before sharing participant-level data, remove direct identifiers, account identifiers, IP addresses, precise timestamps, precise addresses, free-text identifiers, and any other fields that could reasonably enable re-identification. Confirm that the consent and ethics terms permit the intended form of data sharing.
+The released workbook contains no names, contact details, account identifiers, IP addresses, precise timestamps, precise addresses, free-text responses, formulas, comments, hyperlinks, or hidden worksheets. Workbook creator metadata was removed during preparation. The questionnaire form is not included.
 
 If a recommendation-score variable is added, document its stored and analytical scales explicitly. A response stored as 1–11 for an original 0–10 scale should be recoded as:
 
