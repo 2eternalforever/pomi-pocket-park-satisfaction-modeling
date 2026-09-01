@@ -1,0 +1,18 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+
+# Local data
+data/*.xlsx
+data/*.xls
+data/*.csv
+!data/README.md
+
+# OS/editor files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
