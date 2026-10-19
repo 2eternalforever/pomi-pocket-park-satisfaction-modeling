@@ -1,32 +1,29 @@
-# Data directory
+# Analysis data
 
-This directory includes the anonymized, numerically coded analysis dataset:
+`survey_data.xlsx` contains 361 valid responses and 50 numerically coded variables.
+Cell values are unchanged from the previously released workbook.
 
-```text
-survey_data.xlsx
-```
+The satisfaction models use `Satisfaction_Overall` as the outcome and these eleven
+predictors (all rating items use integers 1 through 5):
 
-The file contains 361 rows, one per valid response, and 50 coded variables. The modeling workflow uses the following columns:
+- `Satisfaction_Access`, `Satisfaction_Comfort`, `Satisfaction_Cleanliness`,
+  `Satisfaction_Safety`, `Satisfaction_Greenery`, `Satisfaction_Maintenance`
+- `Facility_Seating`, `Facility_Fitness`, `Facility_Children`, `Facility_Shade`,
+  `Facility_WiFi`
 
-| Column | Description | Expected values |
-|---|---|---|
-| `Satisfaction_Overall` | Overall satisfaction | Integer, 1–5 |
-| `Satisfaction_Access` | Accessibility satisfaction | Integer, 1–5 |
-| `Satisfaction_Comfort` | Comfort satisfaction | Integer, 1–5 |
-| `Satisfaction_Cleanliness` | Cleanliness satisfaction | Integer, 1–5 |
-| `Satisfaction_Safety` | Safety satisfaction | Integer, 1–5 |
-| `Satisfaction_Greenery` | Greenery satisfaction | Integer, 1–5 |
-| `Satisfaction_Maintenance` | Maintenance satisfaction | Integer, 1–5 |
-| `Facility_Seating` | Seating rating | Integer, 1–5 |
-| `Facility_Fitness` | Fitness-facility rating | Integer, 1–5 |
-| `Facility_Children` | Children's-facility rating | Integer, 1–5 |
-| `Facility_Shade` | Shade-facility rating | Integer, 1–5 |
-| `Facility_WiFi` | Wi-Fi rating | Integer, 1–5 |
+EFA and clustering use all six `Satisfaction_` attributes (excluding the overall
+item), eight `Facility_` items, and three `Impact_` items, for 17 items in total.
 
-The released workbook contains no names, contact details, account identifiers, IP addresses, precise timestamps, precise addresses, free-text responses, formulas, comments, hyperlinks, or hidden worksheets. Workbook creator metadata was removed during preparation. The questionnaire form is not included.
+Age uses six categories: 1=18-25, 2=26-35, 3=36-45, 4=46-55, 5=56-65, 6=66+.
+The stored recommendation score ranges from 1 to 11. The audit subtracts one to
+represent 0 through 10. Its near-zero association with satisfaction is unresolved;
+it is not used in the revised satisfaction models or substantive conclusions.
 
-If a recommendation-score variable is added, document its stored and analytical scales explicitly. A response stored as 1–11 for an original 0–10 scale should be recoded as:
+The workbook excludes names, contact details, account identifiers, IP addresses,
+precise addresses, timestamps, and free-text responses. It contains no formulas,
+comments, hyperlinks, or hidden worksheets. Creator metadata was removed during
+preparation. The questionnaire and ethics documents are not included.
 
-```text
-NPS_Score_0_10 = NPS_Score_raw - 1
-```
+The data do not contain park identifiers or raw recruitment/exclusion records.
+The recruitment denominator, exclusion reasons, geographic screening, and consent
+interface cannot be inferred from this workbook.

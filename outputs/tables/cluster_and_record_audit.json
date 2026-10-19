@@ -1,0 +1,78 @@
+{
+  "n": 361,
+  "cells_missing": 0,
+  "exact_duplicate_rows": 0,
+  "silhouette_overall": 0.5553304618872107,
+  "clusters": [
+    {
+      "cluster": 1,
+      "n": 109,
+      "share": 0.30193905817174516,
+      "mean": 2.7339449541284404,
+      "SD": 0.6475338091396718,
+      "silhouette": 0.4100475697868136
+    },
+    {
+      "cluster": 2,
+      "n": 252,
+      "share": 0.6980609418282548,
+      "mean": 4.313492063492063,
+      "SD": 0.46483569038991274,
+      "silhouette": 0.6181710779147636
+    }
+  ],
+  "tests": [
+    {
+      "variable": "Age",
+      "test": "Mann-Whitney U (asymptotic; tie correction; no continuity correction)",
+      "statistic": 13911.0,
+      "p": 0.8419533197270286
+    },
+    {
+      "variable": "Distance",
+      "test": "Mann-Whitney U (asymptotic; tie correction; no continuity correction)",
+      "statistic": 13431.0,
+      "p": 0.7269141259398566
+    },
+    {
+      "variable": "Frequency",
+      "test": "Mann-Whitney U (asymptotic; tie correction; no continuity correction)",
+      "statistic": 15127.5,
+      "p": 0.11294390957424032
+    },
+    {
+      "variable": "Duration",
+      "test": "Mann-Whitney U (asymptotic; tie correction; no continuity correction)",
+      "statistic": 13446.0,
+      "p": 0.7394610631289787
+    },
+    {
+      "variable": "Gender",
+      "test": "Pearson chi-square",
+      "statistic": 0.4087872381987306,
+      "p": 0.815141452787129
+    },
+    {
+      "variable": "District",
+      "test": "Pearson chi-square",
+      "statistic": 13.582721448258765,
+      "p": 0.5573823638899673
+    },
+    {
+      "variable": "ResidenceType",
+      "test": "Pearson chi-square",
+      "statistic": 2.3427779866207064,
+      "p": 0.6729919293603104
+    }
+  ],
+  "recommendation_audit_only": {
+    "stored_min": 1.0,
+    "stored_max": 11.0,
+    "pearson_r": 0.02581006588203455,
+    "pearson_p": 0.6250031632966851,
+    "spearman_rho": 0.013513593919157905,
+    "spearman_p": 0.7980438864018772,
+    "subtracting_one_changes_correlations": false,
+    "underlying_cause": "unresolved"
+  }
+}

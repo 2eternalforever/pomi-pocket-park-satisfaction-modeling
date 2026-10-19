@@ -1,0 +1,8 @@
+variable,test,statistic,p
+Age,Mann-Whitney U (asymptotic; tie correction; no continuity correction),13911.0,0.8419533197270286
+Distance,Mann-Whitney U (asymptotic; tie correction; no continuity correction),13431.0,0.7269141259398566
+Frequency,Mann-Whitney U (asymptotic; tie correction; no continuity correction),15127.5,0.11294390957424032
+Duration,Mann-Whitney U (asymptotic; tie correction; no continuity correction),13446.0,0.7394610631289787
+Gender,Pearson chi-square,0.4087872381987306,0.815141452787129
+District,Pearson chi-square,13.582721448258765,0.5573823638899673
+ResidenceType,Pearson chi-square,2.3427779866207064,0.6729919293603104

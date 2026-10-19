@@ -1,0 +1,9 @@
+{
+  "input_sha256": "e192f5560f314e2f65345d0f52f4092c3b557460fc4c593fd38f47720a6b83c8",
+  "numpy": "2.5.1",
+  "pandas": "3.0.5",
+  "scipy": "1.18.0",
+  "sklearn": "1.9.0",
+  "statsmodels": "0.15.0",
+  "python": "3.12.0 (tags/v3.12.0:0fb18b0, Oct  2 2023, 13:03:39) [MSC v.1935 64 bit (AMD64)]"
+}

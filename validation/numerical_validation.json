@@ -1,0 +1,258 @@
+{
+  "status": "passed",
+  "checks": [
+    {
+      "claim": "Linear regression holdout MAE",
+      "actual": 0.1902254224657861,
+      "expected": 0.1902,
+      "passed": true
+    },
+    {
+      "claim": "Linear regression holdout RMSE",
+      "actual": 0.2419111469770244,
+      "expected": 0.2419,
+      "passed": true
+    },
+    {
+      "claim": "Linear regression holdout R2",
+      "actual": 0.9267037700801076,
+      "expected": 0.9267,
+      "passed": true
+    },
+    {
+      "claim": "SVR holdout MAE",
+      "actual": 0.2325379667334143,
+      "expected": 0.2325,
+      "passed": true
+    },
+    {
+      "claim": "SVR holdout RMSE",
+      "actual": 0.4626969078644357,
+      "expected": 0.4627,
+      "passed": true
+    },
+    {
+      "claim": "SVR holdout R2",
+      "actual": 0.731859095554439,
+      "expected": 0.7319,
+      "passed": true
+    },
+    {
+      "claim": "Random forest holdout MAE",
+      "actual": 0.1772252461687545,
+      "expected": 0.1772,
+      "passed": true
+    },
+    {
+      "claim": "Random forest holdout RMSE",
+      "actual": 0.3092237663248743,
+      "expected": 0.3092,
+      "passed": true
+    },
+    {
+      "claim": "Random forest holdout R2",
+      "actual": 0.8802389467910469,
+      "expected": 0.8802,
+      "passed": true
+    },
+    {
+      "claim": "GPR holdout MAE",
+      "actual": 0.1420315392275535,
+      "expected": 0.142,
+      "passed": true
+    },
+    {
+      "claim": "GPR holdout RMSE",
+      "actual": 0.3090427368374595,
+      "expected": 0.309,
+      "passed": true
+    },
+    {
+      "claim": "GPR holdout R2",
+      "actual": 0.880379129650643,
+      "expected": 0.8804,
+      "passed": true
+    },
+    {
+      "claim": "Six-attribute mean holdout MAE",
+      "actual": 0.217125382262997,
+      "expected": 0.2171,
+      "passed": true
+    },
+    {
+      "claim": "Six-attribute mean holdout RMSE",
+      "actual": 0.3675136173252223,
+      "expected": 0.3675,
+      "passed": true
+    },
+    {
+      "claim": "Six-attribute mean holdout R2",
+      "actual": 0.830832571977417,
+      "expected": 0.8308,
+      "passed": true
+    },
+    {
+      "claim": "GPR training CV MAE",
+      "actual": 0.18301156978824204,
+      "expected": 0.183,
+      "passed": true
+    },
+    {
+      "claim": "Nested selected procedure outer-fold mean MAE",
+      "actual": 0.15361008092758793,
+      "expected": 0.1536,
+      "passed": true
+    },
+    {
+      "claim": "Linear regression outer-fold mean MAE",
+      "actual": 0.19065313007741747,
+      "expected": 0.1907,
+      "passed": true
+    },
+    {
+      "claim": "Six-attribute mean outer-fold mean MAE",
+      "actual": 0.22267250126839166,
+      "expected": 0.2227,
+      "passed": true
+    },
+    {
+      "claim": "Ordered-logit accuracy",
+      "actual": 0.9541284403669724,
+      "expected": 0.9541,
+      "passed": true
+    },
+    {
+      "claim": "Ordered-logit quadratic kappa",
+      "actual": 0.9701288024116196,
+      "expected": 0.9701,
+      "passed": true
+    },
+    {
+      "claim": "Bootstrap MAE bound 1",
+      "actual": 0.09537073696616245,
+      "expected": 0.0954,
+      "passed": true
+    },
+    {
+      "claim": "Bootstrap MAE bound 2",
+      "actual": 0.20036840025838093,
+      "expected": 0.2004,
+      "passed": true
+    },
+    {
+      "claim": "Bootstrap RMSE bound 1",
+      "actual": 0.19071200503217073,
+      "expected": 0.1907,
+      "passed": true
+    },
+    {
+      "claim": "Bootstrap RMSE bound 2",
+      "actual": 0.41537084316894396,
+      "expected": 0.4154,
+      "passed": true
+    },
+    {
+      "claim": "Bootstrap R2 bound 1",
+      "actual": 0.7683832130115794,
+      "expected": 0.7684,
+      "passed": true
+    },
+    {
+      "claim": "Bootstrap R2 bound 2",
+      "actual": 0.9514151949028765,
+      "expected": 0.9514,
+      "passed": true
+    },
+    {
+      "claim": "KMO",
+      "actual": 0.9713658978381887,
+      "expected": 0.971,
+      "passed": true
+    },
+    {
+      "claim": "Bartlett chi-square",
+      "actual": 3511.8976933117865,
+      "expected": 3511.898,
+      "passed": true
+    },
+    {
+      "claim": "ML factor percent",
+      "actual": 51.27544623567718,
+      "expected": 51.3,
+      "passed": true
+    },
+    {
+      "claim": "Lower cluster satisfaction SD",
+      "actual": 0.6475338091396718,
+      "expected": 0.65,
+      "passed": true
+    },
+    {
+      "claim": "Higher cluster satisfaction SD",
+      "actual": 0.46483569038991274,
+      "expected": 0.46,
+      "passed": true
+    },
+    {
+      "claim": "Cluster test Age p",
+      "actual": 0.8419533197270286,
+      "expected": 0.842,
+      "passed": true
+    },
+    {
+      "claim": "Cluster test Distance p",
+      "actual": 0.7269141259398566,
+      "expected": 0.727,
+      "passed": true
+    },
+    {
+      "claim": "Cluster test Frequency p",
+      "actual": 0.11294390957424032,
+      "expected": 0.113,
+      "passed": true
+    },
+    {
+      "claim": "Cluster test Duration p",
+      "actual": 0.7394610631289787,
+      "expected": 0.739,
+      "passed": true
+    },
+    {
+      "claim": "Cluster test Gender p",
+      "actual": 0.815141452787129,
+      "expected": 0.815,
+      "passed": true
+    },
+    {
+      "claim": "Cluster test District p",
+      "actual": 0.5573823638899673,
+      "expected": 0.557,
+      "passed": true
+    },
+    {
+      "claim": "Cluster test ResidenceType p",
+      "actual": 0.6729919293603104,
+      "expected": 0.673,
+      "passed": true
+    },
+    {
+      "claim": "Eight-component cumulative percent",
+      "actual": 79.86015018048238,
+      "expected": 79.9,
+      "passed": true
+    },
+    {
+      "claim": "Nine-component cumulative percent",
+      "actual": 82.6515839599065,
+      "expected": 82.7,
+      "passed": true
+    }
+  ],
+  "additional_assertions": [
+    "training-CV GPR selection",
+    "all five nested selections",
+    "one-factor retention",
+    "cluster counts",
+    "top-five RF ranking"
+  ]
+}

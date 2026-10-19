@@ -1,19 +1,10 @@
-# Python
 __pycache__/
 *.py[cod]
 .venv/
 venv/
 env/
-
-# Local data
-data/*.xlsx
-data/*.xls
-data/*.csv
-!data/README.md
-!data/survey_data.xlsx
-
-# OS/editor files
 .DS_Store
 Thumbs.db
 .vscode/
 .idea/
+*.zip

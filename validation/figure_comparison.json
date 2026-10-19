@@ -1,0 +1,52 @@
+[
+  {
+    "figure": 2,
+    "same_pixels_as_manuscript": true,
+    "file": "Figure_2_original_style_600dpi.png"
+  },
+  {
+    "figure": 3,
+    "same_pixels_as_manuscript": true,
+    "file": "Figure_3_corrected_600dpi.png"
+  },
+  {
+    "figure": 4,
+    "same_pixels_as_manuscript": true,
+    "file": "Figure_4_corrected_600dpi.png"
+  },
+  {
+    "figure": 5,
+    "same_pixels_as_manuscript": true,
+    "file": "Figure_5_corrected_600dpi.png"
+  },
+  {
+    "figure": 6,
+    "same_pixels_as_manuscript": true,
+    "file": "Figure_6_corrected_600dpi.png"
+  },
+  {
+    "figure": 8,
+    "same_pixels_as_manuscript": true,
+    "file": "Figure_8_clustering_600dpi.png"
+  },
+  {
+    "figure": 9,
+    "same_pixels_as_manuscript": true,
+    "file": "Figure_9_original_style_600dpi.png"
+  },
+  {
+    "figure": 10,
+    "same_pixels_as_manuscript": true,
+    "file": "Figure_10_original_style_600dpi.png"
+  },
+  {
+    "figure": 11,
+    "same_pixels_as_manuscript": true,
+    "file": "Figure_11_original_style_600dpi.png"
+  },
+  {
+    "figure": 12,
+    "same_pixels_as_manuscript": true,
+    "file": "Figure_12_original_style_600dpi.png"
+  }
+]

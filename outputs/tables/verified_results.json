@@ -1,0 +1,152 @@
+{
+  "n_train": 252,
+  "n_holdout": 109,
+  "selected": "GPR",
+  "holdout": [
+    {
+      "model": "Linear regression",
+      "MAE": 0.1902254224657861,
+      "RMSE": 0.24191114697702448,
+      "R2": 0.9267037700801077
+    },
+    {
+      "model": "SVR",
+      "MAE": 0.23253796673341434,
+      "RMSE": 0.46269690786443574,
+      "R2": 0.731859095554439
+    },
+    {
+      "model": "Random forest",
+      "MAE": 0.17722524616875457,
+      "RMSE": 0.30922376632487436,
+      "R2": 0.8802389467910469
+    },
+    {
+      "model": "GPR",
+      "MAE": 0.1420315392275535,
+      "RMSE": 0.3090427368374595,
+      "R2": 0.880379129650643
+    },
+    {
+      "model": "Training mean",
+      "MAE": 0.6696883646424933,
+      "RMSE": 0.8935455172060125,
+      "R2": -7.451872293007256e-06
+    },
+    {
+      "model": "Training median",
+      "MAE": 0.6055045871559633,
+      "RMSE": 0.908673799223074,
+      "R2": -0.034155597722960396
+    },
+    {
+      "model": "Six-attribute mean",
+      "MAE": 0.217125382262997,
+      "RMSE": 0.36751361732522236,
+      "R2": 0.830832571977417
+    },
+    {
+      "model": "Ordered logit expected score",
+      "MAE": 0.059102971711992955,
+      "RMSE": 0.19549575103314,
+      "R2": 0.9521320839118523
+    }
+  ],
+  "cv": {
+    "mean": {
+      "GPR": 0.1830115697882421,
+      "Linear regression": 0.20173320669548045,
+      "Random forest": 0.22221754585314205,
+      "SVR": 0.25420468157957554
+    },
+    "std": {
+      "GPR": 0.0155064583709074,
+      "Linear regression": 0.03711554929304892,
+      "Random forest": 0.04374999565783368,
+      "SVR": 0.08869774444174709
+    }
+  },
+  "ordinal": {
+    "converged": true,
+    "max_abs_gradient": 4.205932936961583e-08,
+    "expected_score": {
+      "MAE": 0.059102971711992955,
+      "RMSE": 0.19549575103314,
+      "R2": 0.9521320839118523
+    },
+    "log_likelihood": -23.394049415161568,
+    "max_abs_coefficient": 2.74633054077732,
+    "thresholds": [
+      -32.60742570073227,
+      -21.991263910679827,
+      -6.8757128662925115,
+      9.547417263913994
+    ]
+  },
+  "category_metrics": [
+    {
+      "model": "Ordered logit (median)",
+      "category_MAE": 0.045871559633027525,
+      "exact_accuracy": 0.9541284403669725,
+      "quadratic_weighted_kappa": 0.9701288024116196,
+      "errors": 5
+    },
+    {
+      "model": "Ordered logit (mode)",
+      "category_MAE": 0.045871559633027525,
+      "exact_accuracy": 0.9541284403669725,
+      "quadratic_weighted_kappa": 0.9701288024116196,
+      "errors": 5
+    },
+    {
+      "model": "Linear regression (rounded)",
+      "category_MAE": 0.045871559633027525,
+      "exact_accuracy": 0.9541284403669725,
+      "quadratic_weighted_kappa": 0.9701288024116196,
+      "errors": 5
+    },
+    {
+      "model": "GPR (rounded)",
+      "category_MAE": 0.06422018348623854,
+      "exact_accuracy": 0.944954128440367,
+      "quadratic_weighted_kappa": 0.9449154921668819,
+      "errors": 6
+    },
+    {
+      "model": "Six-attribute mean (rounded)",
+      "category_MAE": 0.13761467889908258,
+      "exact_accuracy": 0.8715596330275229,
+      "quadratic_weighted_kappa": 0.8861863521896689,
+      "errors": 14
+    }
+  ],
+  "bootstrap_CI": {
+    "MAE": [
+      0.09537073696616245,
+      0.20036840025838093
+    ],
+    "RMSE": [
+      0.19071200503217073,
+      0.41537084316894396
+    ],
+    "R2": [
+      0.7683832130115794,
+      0.9514151949028765
+    ]
+  },
+  "mean_error": 0.0062556619470096235,
+  "error_SD": 0.310406580858216,
+  "nested_selected": [
+    "GPR",
+    "GPR",
+    "GPR",
+    "GPR",
+    "GPR"
+  ],
+  "nested_pooled": {
+    "MAE": 0.15359526114087116,
+    "RMSE": 0.2826417219539921,
+    "R2": 0.9003344109145799
+  },
+  "adjusted_train_r2": 0.9235151461421244
+}
